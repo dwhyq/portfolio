@@ -7,8 +7,9 @@ html {
 body {
     font-family: 'Comfortaa', cursive;
     font-size: large;
-    background-color: black;
+    background-color: #666666;
     color: black;
+    width: auto;
 }
 .wrapper {
     margin: 0;
@@ -29,8 +30,9 @@ h1 {
     color: black;
 }
 i {
-    font-size:38px;
-    color:green;
+    font-size:28px;
+    color: orange;
+    padding-left: 0.3rem;
 }
 .artfield {
     display: flex;
@@ -82,4 +84,5 @@ nav a {
 nav li:hover {
       background-color: white;
       color: black;
+      transition: 0.5s;
 }
